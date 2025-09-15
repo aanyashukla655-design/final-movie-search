@@ -1,0 +1,19 @@
+<div id="parent" style="padding:20px; border:1px solid black;">
+  Parent
+  <button id="child">Click me</button>
+</div>
+
+<script>
+document.getElementById("parent").addEventListener("click", function() {         
+  console.log("Parent clicked!");
+});
+
+document.getElementById("child").addEventListener("click", function(event) {
+  console.log("Child clicked!");
+   event.stopPropagation();  
+});
+</script>
+
+<!-- this is event bubbling -->
+
+<!-- Event bubbling happens when an event on a child element “bubbles up” to its parent elements. -->
