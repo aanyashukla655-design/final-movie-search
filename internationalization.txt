@@ -1,8 +1,0 @@
-internationalization
-Axios, jQuery.ajax, XMLHttpRequest, GraphQL clients.
-Ricky
-8:51 PM
-Delay function execution until typing stops, e.g., using setTimeout/clearTimeout.
-Ricky
-8:53 PM
-Event bubbling happens when an event on a child element “bubbles up” to its parent elements.
