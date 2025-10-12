@@ -12,7 +12,7 @@ btn.addEventListener("click", function() {
     }
 
     // fetch movie from omdb api (you need your own key)
-    fetch("https://www.omdbapi.com/?t=" + movieName + "&apikey=YOUR_API_KEY")
+    fetch("https://www.omdbapi.com/?t=" + movieName + "&apikey=beaa9fc2")
     .then(function(res) {
         return res.json();
     })
